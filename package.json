@@ -1,0 +1,18 @@
+{
+  "name": "md2n",
+  "version": "1.0.0",
+  "description": "Markdown批量转换成HTML/PDF/JSON等类型的文件。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "学点网(http://www.pwedu.com); 百度ID：rayhuizi033",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-markdown": "^1.2.0",
+    "gulp-markdown-pdf": "^5.0.0",
+    "gulp-markdown-to-json": "^1.0.3",
+    "marked": "^0.3.6"
+  }
+}
