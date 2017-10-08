@@ -4,7 +4,7 @@ Markdown 文件批量转换成多种文件格式工具。
 
 目前支持HTML/JSON/PDF格式的转换。
 
-百度经验经验地址:[]()
+百度经验经验地址:[markdown 转换成HTML/PDF/JSON/word](http://jingyan.baidu.com/article/48b37f8ddefcbd1a64648809.html)
 
 >NOTE: 生成的JSON文件中，json的值包含有HTML代码，如果介意或者这不是你需要的请自行处理。
 
@@ -33,7 +33,7 @@ default | gulp 或者 gulp default | 一次批量把markdown 文件转换成相�
 
 ## 高级设置
 
-因为只是一个普通的工具，没有进行进一步设置。如果你有自己其他需求，可以通过安装其他插件、修改gulpfile.js 来实现高度的自定义设置。 比如生成PDF 的纸张大小、页边距等；生成HTML的样式等等。
+因为只是一个普通的工具，没有进行进一步设置。如果你有自己其他需求，可以通过安装其他插件、修改`gulpfile.js` 来实现高度的自定义设置。 比如生成PDF 的纸张大小、页边距等；生成HTML的样式等等。
 
 工具用到插件都在package.json 的`devDependencies`项里了，你可以通过自定义来按需配置和控制各个插件的文件处理方式。具体配置可以参考这些插件的`README.md` 文件。
 
